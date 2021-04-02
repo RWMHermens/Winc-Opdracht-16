@@ -1,0 +1,17 @@
+$backgr-color_green: #c0eea9;
+$backgr-color_darkgreen: #97d279;
+$backgr-color_lightgreen: #ecffe9;
+$text-color: #090b08;
+$box-color_black: #000;
+$shadow: rgba(0, 0, 0, 0.75);
+
+$padding20: 20px;
+
+@mixin bodytext {
+  color: $text-color;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,700");
